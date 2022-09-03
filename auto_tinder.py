@@ -10,9 +10,9 @@ driver.implicitly_wait(10)
 driver.get("https://tinder.com/app/recs")
 sleep(5)
 
-# いいね実行
-for i in range(50):
-    driver.find_element_by_xpath('//body').send_keys(Keys.RIGHT)
-    sleep(3)
+# # いいね実行
+# for i in range(50):
+#     driver.find_element_by_xpath('//body').send_keys(Keys.RIGHT)
+#     sleep(3)
 
 driver.close()
