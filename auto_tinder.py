@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 driver.implicitly_wait(10)
 
 # tinderトップページを開く
-driver.get("https://tinder.com/app/recs")
+driver.get("https://tinder.com/")
 sleep(5)
 
 # # いいね実行
